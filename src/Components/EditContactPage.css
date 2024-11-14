@@ -1,0 +1,59 @@
+/* src/components/EditContactPage.css */
+.edit-contact-page {
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em; /* Contact Manager title size */
+}
+
+.edit-contact-title {
+    text-align: center; /* Center the Edit Contact title */
+    margin-top: 20px; /* Add some space above the title */
+    font-size: 1.8em; /* Make the Edit Contact title larger */
+    color: darkblue; /* Change title color */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: darkblue;
+}
+
+
